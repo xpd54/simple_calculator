@@ -8,13 +8,15 @@
 
 #import <UIKit/UIKit.h>
 @interface ViewController : UIViewController
-@property (strong,nonatomic) IBOutlet UILabel *display;
+@property (strong, nonatomic) IBOutlet UILabel *display;
 -(void) processDigit : (int) digit;
 -(void) processOp : (char) theOp;
 -(void) storeFracPart;
 // numeric keys
 
 -(IBAction) ClickDigit: (UIButton *) sender;
+
+
 // Arithmetic Operation keys
 -(IBAction) clickPlus;
 -(IBAction) ClickMinus;
