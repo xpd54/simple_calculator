@@ -7,11 +7,15 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Helpshift.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // helpshift sdk install
+    
+    [Helpshift installForApiKey:@"880734a9f861802a6508068ce44e38f2" domainName:@"ravi.helpshift.com" appID:@"ravi_platform_20140523104752299-27830ad9fb258dd"];
+    
     // Override point for customization after application launch.
     return YES;
 }
