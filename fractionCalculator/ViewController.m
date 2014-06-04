@@ -40,7 +40,7 @@
 
 
 -(IBAction)ClickDigit:(UIButton *)sender {
-    int digit = sender.tag;
+    long digit = sender.tag;
     [self processDigit:digit];
 }
 
