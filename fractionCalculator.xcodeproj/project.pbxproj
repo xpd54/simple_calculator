@@ -21,6 +21,8 @@
 		16A10FD6193CAEA400D17996 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A10FB8193CAEA400D17996 /* UIKit.framework */; };
 		16A10FDE193CAEA400D17996 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16A10FDC193CAEA400D17996 /* InfoPlist.strings */; };
 		16A10FE0193CAEA400D17996 /* fractionCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A10FDF193CAEA400D17996 /* fractionCalculatorTests.m */; };
+		16A10FEB193DF60300D17996 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A10FEA193DF60300D17996 /* Calculator.m */; };
+		16A10FEE193DF64800D17996 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A10FED193DF64800D17996 /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		16A10FDB193CAEA400D17996 /* fractionCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fractionCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		16A10FDD193CAEA400D17996 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16A10FDF193CAEA400D17996 /* fractionCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fractionCalculatorTests.m; sourceTree = "<group>"; };
+		16A10FE9193DF60300D17996 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		16A10FEA193DF60300D17996 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		16A10FEC193DF64800D17996 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		16A10FED193DF64800D17996 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				16A10FCA193CAEA400D17996 /* ViewController.m */,
 				16A10FCC193CAEA400D17996 /* Images.xcassets */,
 				16A10FBB193CAEA400D17996 /* Supporting Files */,
+				16A10FE9193DF60300D17996 /* Calculator.h */,
+				16A10FEA193DF60300D17996 /* Calculator.m */,
+				16A10FEC193DF64800D17996 /* Fraction.h */,
+				16A10FED193DF64800D17996 /* Fraction.m */,
 			);
 			path = fractionCalculator;
 			sourceTree = "<group>";
@@ -250,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				16A10FCB193CAEA400D17996 /* ViewController.m in Sources */,
+				16A10FEB193DF60300D17996 /* Calculator.m in Sources */,
 				16A10FC5193CAEA400D17996 /* AppDelegate.m in Sources */,
 				16A10FC1193CAEA400D17996 /* main.m in Sources */,
+				16A10FEE193DF64800D17996 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +468,7 @@
 				16A10FE5193CAEA400D17996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16A10FE6193CAEA400D17996 /* Build configuration list for PBXNativeTarget "fractionCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				16A10FE8193CAEA400D17996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
