@@ -28,4 +28,9 @@
 -(IBAction) clickOver;
 -(IBAction) clickEquals;
 -(IBAction) clickClear;
+
+//Help and exit
+-(IBAction)showHelp:(id)sender;
+-(IBAction)exit:(id)sender;
+
 @end

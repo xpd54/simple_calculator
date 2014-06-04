@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Calculator.h"
+#import "Helpshift.h"
 @interface ViewController ()
 
 @end
@@ -140,5 +141,16 @@
     [displayString setString:@""];
     display.text = displayString;
 }
+
+-(IBAction)showHelp:(id)sender
+{
+    [[Helpshift sharedInstance] showFAQs:self withOptions:nil];
+    //Helpshift sdk initializer
+}
+
+- (IBAction)exit:(id)sender {
+    exit(0);
+}
+
 
 @end
